@@ -1,0 +1,31 @@
+body { overflow-y: scroll; background: white; }
+
+#page { 
+	width: 60%;
+	margin: 1em auto;
+	padding: 1em;
+	background: #d9eeff;
+	box-shadow: 0 0 1em #d9eeff;
+	border-radius: 0.5em;
+}
+
+.map {
+	border: 0;
+	width: 90%;
+	height: 25em;
+}
+
+.atu { font-weight: bold; padding-left: 0.2em; font-size: 1.2em; }
+
+.inside { padding: 1em; }
+
+.main { overflow: hidden; background: rgba(255, 255, 255, 0.6); border-radius: 0.5em; margin: 1em 0; }
+.content, .sidebar { float: left; }
+.content { width: 65%; }
+.sidebar { width: 35%; }
+.footer { padding: 0 1em; }
+
+.icon { display: inline-block; width: 1.5em; text-align: center; }
+.icon2 { display: inline-block; width: 1em; text-align: center; }
+
+.nav-toggle { margin-bottom: 2em; }

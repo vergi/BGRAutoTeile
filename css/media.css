@@ -1,0 +1,38 @@
+/* Smartphones (portrait) ----------- */
+
+@media only screen 
+and (max-width : 1649px) {
+	#page { width: 70%; margin: 1em auto; }
+	.sidebar { width: 35%; }
+	.content { width: 65%; }
+}
+
+@media only screen 
+and (max-width : 1023px) {
+	#page { width: auto; margin: 0; }
+	body { background-color: #d9eeff; }
+	.footer { padding: 1em; border-bottom: 1px dotted #330000; }
+}
+
+@media only screen 
+and (max-width : 767px) {
+	body { font-size: 0.9em; }
+}
+
+@media only screen 
+and (max-width : 539px) {
+	.sidebar, .content { float: none; width: auto; }
+}
+
+@media only screen 
+and (max-width : 479px) {
+	nav > ul > li { float: none; width: auto; margin: 0; border: 0; box-shadow: 0 0 0; }
+	nav > ul > li > a { border-radius: 0; width: auto; }
+
+	.nav-toggle.active { margin-bottom: 0; background: #02f; color: #FFF; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+}
+
+@media only screen 
+and (max-width : 360px) {
+	body { font-size: 0.8em; }
+}
